@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+.tooltip-warning {
+  .tooltip-arrow::before {
+    border-right-color: var(--bs-warning);
+  }
+  .tooltip-inner {
+    background-color: var(--bs-warning);
+    color: black;
+  }
+}
